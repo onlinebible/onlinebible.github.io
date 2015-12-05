@@ -36,6 +36,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 50px;
     text-align: center;
     background: #fff;
+    overflow: auto;
 }
 
 .about-section {
@@ -51,6 +52,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #fff;
+    overflow: auto;
 }
 
 .contact-section {
@@ -58,4 +60,5 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #eee;
+    overflow: auto;
 }
