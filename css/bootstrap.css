@@ -1588,7 +1588,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
   overflow: auto;
-  position: fixed;
+  position: absolute;
 }
 @media (min-width: 768px) {
   .container {
