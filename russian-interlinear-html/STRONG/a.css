@@ -1,0 +1,9 @@
+A:link {color: #0f0f7f; text-decoration: none}
+A:active {color: red; font-weight: bold; text-decoration: none}
+A.fancy:link {font-style: italic; text-decoration: none}
+A.fancy:visited {font-style: normal; text-decoration: none}
+A.fancy:active {color: red; font-weight: bold; font-size: 150%; text-decoration: none}
+A:visited {color: #00007f; text-decoration: none}
+A:hover {color: #00007f; font-weight: bold; text-decoration: underline}
+b {font-family: 'Arial Cyr'; font-size: 80%; text-decoration: none }
+i {color: purple; font-family: 'Arial Cyr'; font-weight: normal; font-style: normal; text-decoration: none; }

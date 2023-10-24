@@ -1,0 +1,130 @@
+P {
+	font:			16px Arial, Helvetica, sans-serif;
+	color:			#000066;
+	margin-top:		16pt;
+	text-align:		justify;
+}
+
+I {
+	color:			black;
+}
+
+B {
+	font:			21px Times,Helvetica,sans-serif;
+	color:			#000066;
+}
+
+FORM { 
+	font:			9px Arial, Helvetica, sans-serif;
+	color:			#000066;
+}
+
+TD { 
+	font:			21px Times,Helvetica,sans-serif;
+	color:			#000066;
+}
+
+
+U {
+	font:			8pt Arial, Helvetica, sans-serif;
+	color:			blue;
+	cursor:			pointer; 
+}
+
+A { 
+	font:			16px Arial, Helvetica, sans-serif;
+	color:			blue;
+	cursor:			pointer; 
+	text-decoration:	underline;
+}
+A:hover { 
+	font:			16px Arial, Helvetica, sans-serif;
+	color:			red;
+	cursor:			pointer; 
+	text-decoration:	underline;
+}
+
+#header A { 
+	font:			19px Arial, Helvetica, sans-serif;
+	width:			100%; 
+	padding:		3px; 
+	margin:			0px; 
+	display: 		block;
+	color:			#000066; 
+	background:		#66CCFF; 
+	text-align:		center; 
+	text-decoration:	none; 
+}
+#header A:hover { 
+	color:			#000066; 
+	background:		#0099FF; 
+}
+
+#bar A {
+	font:			19px Arial, Helvetica, sans-serif;
+        width: 			100%;
+	padding: 		2px;
+	margin: 		0px;
+	display: 		block;
+	color:			#000066;
+	text-decoration:	none;
+}
+#bar A:hover {
+	background:		#66CCFF;
+	color:			#000066;
+}
+
+.eng I {
+	font:			10pt Arial, Helvetica, sans-serif;
+	font-style:		italic;
+	color:			#d55500;
+}
+
+.strongs {
+	font:			8pt Arial, Helvetica, sans-serif;
+	color:			blue;
+}
+
+.translit {
+	font:			10pt Arial, Helvetica, sans-serif;
+	color:			green;
+}
+
+.hebrew {
+	font:			30px Times, Helvetica, sans-serif;
+	color:			#000066;
+}
+
+.eng {
+	font:			10pt Arial, Helvetica, sans-serif;
+	color:			#d55500;
+}
+
+.strongsnt {
+	font:			8pt Arial, Helvetica, sans-serif;
+	font-style:		italic;
+	color:			#0092f2;
+	white-space:		nowrap;
+}
+
+DIV.Info A {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ff6600
+}
+
+DIV.Info {
+	BACKGROUND: #ffffcc; BORDER-BOTTOM: blue; BORDER-LEFT: blue; BORDER-RIGHT: blue; BORDER-TOP: blue; COLOR: #990033; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 10pt; PADDING-BOTTOM: 1%; PADDING-LEFT: 1%; PADDING-RIGHT: 1%; PADDING-TOP: 1%; TEXT-ALIGN: left
+}
+
+P.Info A {
+	BACKGROUND: #ffffcc; BORDER-BOTTOM: black; BORDER-LEFT: black; BORDER-RIGHT: black; BORDER-TOP: black; BORDER: Solid; COLOR: #990033; FONT-FAMILY: Arial, Helvetica, sans-serif; PADDING-BOTTOM: 1%; PADDING-LEFT: 1%; PADDING-RIGHT: 1%; PADDING-TOP: 1%; TEXT-ALIGN: left
+}
+
+A.brown:hover {
+	BACKGROUND: #ffcc00; COLOR: #d55500; TEXT-DECORATION: none
+}
+A.brown:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.brown:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}

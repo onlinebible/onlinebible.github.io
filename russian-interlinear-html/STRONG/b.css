@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'GrkV';
+    src: url('../FONTS/GrkV.eot');
+    src: url('../FONTS/GrkV.eot?#iefix') format('embedded-opentype'),
+         url('../FONTS/GrkV.woff') format('woff'),
+         url('../FONTS/GrkV.ttf') format('truetype'),
+         url('../FONTS/GrkV.svg#GrkV') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+span {font-family: GrkV; font-size: 14pt;}
+dfn {font-family: GrkV; font-size: 14pt;}
+A:link {color: blue; font-weight: normal; text-decoration: none}
+A:active {color: blue; font-weight: normal; text-decoration: none}
+A:visited {color: blue; font-weight: normal; text-decoration: none}
+A:hover {color: red; font-weight: normal; text-decoration: none}
+A.fancy:link {color: black; font-weight: normal; text-decoration: none}
+A.fancy:active {color: black; font-weight: normal; text-decoration: none}
+A.fancy:visited {color: black; font-weight: normal; text-decoration: none}
+A.fancy:hover {color: red; font-weight: normal; text-decoration: none}
+
