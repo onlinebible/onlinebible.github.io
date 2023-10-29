@@ -18,4 +18,8 @@ A.fancy:link {color: black; font-weight: normal; text-decoration: none}
 A.fancy:active {color: black; font-weight: normal; text-decoration: none}
 A.fancy:visited {color: black; font-weight: normal; text-decoration: none}
 A.fancy:hover {color: red; font-weight: normal; text-decoration: none}
-
+U {
+	font:			Arial, Helvetica, sans-serif;
+	color:			blue;
+	cursor:			pointer; 
+}
