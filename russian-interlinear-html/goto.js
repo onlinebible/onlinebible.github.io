@@ -4,7 +4,7 @@
 	var SectionsCount=arr[1];
 	var ls = document.getElementById('LocatorSections');
 	ls.options.length = 0;
-	for (i=1;i<=SectionsCount;i++) ls.options[i-1] = new Option(i,(BookShortName!='.'?"../":"")+WorkName+"/"+WorkName.toLowerCase()+i+".htm");
+	for (i=1;i<=SectionsCount;i++) ls.options[i-1] = new Option(i,(BookShortName!='.'?"../":"")+WorkName+"/"+WorkName.toLowerCase()+i+".html");
 }
 
 function ShowLocator() {

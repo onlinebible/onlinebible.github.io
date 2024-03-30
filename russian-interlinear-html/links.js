@@ -22,7 +22,7 @@ function process_click(e) {
 	if (ref < 1000) { letter = letter + '0' };
 
 	var number = (ref[0] == 0) ? ref.slice(1, ref.length) : ref;
-	myWindow=window.open ('../STRONG/'+letter+((ref-ref%100)/100)+'.htm#'+number,'compare',stats);
+	myWindow=window.open ('../STRONG/'+letter+((ref-ref%100)/100)+'.html#'+number,'compare',stats);
 	myWindow.focus();
 	myWindow.moveTo((screen.availWidth/2)-365,(screen.availHeight/2)-200);
   }
@@ -30,7 +30,7 @@ function process_click(e) {
   {
     var Where = UpperDirName.toLowerCase();
     var Search = UpperDirName +'/'+ThisFileName+'#'+Number(ref);
-    window.open('../../WHERE.HE/'+Where+'.htm?'+escape(Search),'compare',stats).focus();
+    window.open('../../WHERE.HE/'+Where+'.html?'+escape(Search),'compare',stats).focus();
   }
 }
 
