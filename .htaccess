@@ -1,1 +1,3 @@
-Redirect /russian-interlinear-html/ http://onlinebible.github.io/russian-interlinear-html/index.htm
+Redirect /russian-interlinear-html/ http://onlinebible.github.io/russian-interlinear-html/index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)\.htm$ $1.html [R=301,L]
