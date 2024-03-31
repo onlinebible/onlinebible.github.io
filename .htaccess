@@ -1,6 +1,5 @@
 RewriteEngine On
 RewriteBase /
 Redirect /russian-interlinear-html/ http://onlinebible.github.io/russian-interlinear-html/index.html
-RewriteRule ^ge1\.htm$ ge1.html [R=301]
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule (.*)\.htm $1.html [L]
+RewriteRule ^(.*)\.htm$ /$1.html
