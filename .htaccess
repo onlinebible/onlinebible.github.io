@@ -1,3 +1,4 @@
+Redirect /russian-interlinear-html/ http://onlinebible.github.io/russian-interlinear-html/index.html
 RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
