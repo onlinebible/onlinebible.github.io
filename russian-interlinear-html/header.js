@@ -1,5 +1,6 @@
 ﻿function Header () {
-  document.write("<TABLE cellspacing='0' bgcolor='#66CCFF' width='100%'><TR>");
+  document.write("<div class='top-space'></div>");
+  document.write("<TABLE class='top-menu'><TR>");
   document.write("<TD width='1' title='Предыдущая глава'>");
 	if (Back == '') { document.write("<BUTTON disabled>&laquo;</BUTTON>"); }
 	else { document.write("<BUTTON onClick=\"window.location='"+Back+"'\">&laquo;</BUTTON>"); }

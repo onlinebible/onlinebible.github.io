@@ -1,29 +1,28 @@
+
+/* reset */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,body,canvas,caption,center,cite,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,hgroup,html,i,iframe,ins,label,legend,li,menu,nav,object,output,q,ruby,s,samp,section,small,span,strike,strong,summary,tbody,tfoot,thead,time,tr,tt,u,var,video{margin:0;padding:0;font:inherit;border:0;vertical-align:baseline}h1,h2,h3,h4,ol,p,ul{padding:0;font:inherit;border:0}blockquote,img,sub,sup{font:inherit;border:0}pre{font:inherit;overflow:auto}code,header,kbd,mark,td,th{margin:0;font:inherit;border:0;vertical-align:baseline}img,sub,sup{margin:0;padding:0}table{margin:0;padding:0;font:inherit;border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+
+body{max-width:1280px;margin:0 auto;padding:24px;justify-content:center}
+@media (max-width:600px){body{padding:12px}}
+body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;text-size-adjust:100%;line-height:1.6;font-family:Helvetica,Arial,sans-serif;font-weight:400;color:#404040}
+
 P {
 	font:			16px Arial, Helvetica, sans-serif;
-	color:			#000066;
 	margin-top:		16pt;
 	text-align:		justify;
 }
 
-I {
-	color:			black;
-}
-
 B {
-	font:			21px Times,Helvetica,sans-serif;
-	color:			#000066;
+	font:			18px Times,Helvetica,sans-serif;
 }
 
 FORM { 
 	font:			9px Arial, Helvetica, sans-serif;
-	color:			#000066;
 }
 
 TD { 
-	font:			21px Times,Helvetica,sans-serif;
-	color:			#000066;
+	font:			18px Times,Helvetica,sans-serif;
 }
-
 
 U {
 	font:			8pt Arial, Helvetica, sans-serif;
@@ -41,37 +40,24 @@ A:hover {
 	font:			16px Arial, Helvetica, sans-serif;
 	color:			red;
 	cursor:			pointer; 
-	text-decoration:	underline;
+	text-decoration:none;
 }
 
 #header A { 
-	font:			19px Arial, Helvetica, sans-serif;
+	font:			14px Arial, Helvetica, sans-serif;
 	width:			100%; 
-	padding:		3px; 
-	margin:			0px; 
+    line-height:    30px;
+	margin:         0;
+	padding:        0;
 	display: 		block;
-	color:			#000066; 
-	background:		#66CCFF; 
+	color:			#555; 
+	background:		#cce4f4;
 	text-align:		center; 
 	text-decoration:	none; 
 }
 #header A:hover { 
-	color:			#000066; 
-	background:		#0099FF; 
-}
-
-#bar A {
-	font:			19px Arial, Helvetica, sans-serif;
-        width: 			100%;
-	padding: 		2px;
-	margin: 		0px;
-	display: 		block;
-	color:			#000066;
-	text-decoration:	none;
-}
-#bar A:hover {
-	background:		#66CCFF;
-	color:			#000066;
+	color:			#555; 
+	background:		#98d0f6; 
 }
 
 .eng I {
@@ -104,30 +90,9 @@ A:hover {
 	font:			8pt Arial, Helvetica, sans-serif;
 	font-style:		italic;
 	color:			#0092f2;
-	white-space:		nowrap;
+	white-space:	nowrap;
 }
 
-DIV.Info A {
-	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ff6600
-}
-
-DIV.Info {
-	BACKGROUND: #ffffcc; BORDER-BOTTOM: blue; BORDER-LEFT: blue; BORDER-RIGHT: blue; BORDER-TOP: blue; COLOR: #990033; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 10pt; PADDING-BOTTOM: 1%; PADDING-LEFT: 1%; PADDING-RIGHT: 1%; PADDING-TOP: 1%; TEXT-ALIGN: left
-}
-
-P.Info A {
-	BACKGROUND: #ffffcc; BORDER-BOTTOM: black; BORDER-LEFT: black; BORDER-RIGHT: black; BORDER-TOP: black; BORDER: Solid; COLOR: #990033; FONT-FAMILY: Arial, Helvetica, sans-serif; PADDING-BOTTOM: 1%; PADDING-LEFT: 1%; PADDING-RIGHT: 1%; PADDING-TOP: 1%; TEXT-ALIGN: left
-}
-
-A.brown:hover {
-	BACKGROUND: #ffcc00; COLOR: #d55500; TEXT-DECORATION: none
-}
-A.brown:visited {
-	COLOR: #ffffff; TEXT-DECORATION: none
-}
-A.brown:link {
-	COLOR: #ffffff; TEXT-DECORATION: none
-}
 SELECT {
 	min-width: 80px;
 	font-family: inherit;
@@ -139,8 +104,8 @@ SELECT {
 	padding: 8px;
 	font-size: 14px;
 	cursor: pointer;
-}
-BUTTON {
+  }
+  BUTTON {
 	min-width: 50px;
 	font-family: inherit;
 	appearance: none;
@@ -151,12 +116,24 @@ BUTTON {
 	padding: 8px 12px;
 	font-size: 14px;
 	cursor: pointer;
-}
-BUTTON:hover {
+  }
+  BUTTON:hover {
 	background: #1d49aa;
-}
+  }
   
-BUTTON:focus {
+  BUTTON:focus {
 	outline: none;
 	box-shadow: 0 0 0 4px #cbd6ee;
-}
+  }
+  SELECT:hover {
+	background: #cce4f4
+  }
+
+.version{padding:0 0 10px;}
+.top-menu{width: 100%;}
+.top-space{clear: both; margin-bottom: 8px;}
+.chapter{width: 100%; text-align: center; margin: 10px 0; padding-top: 10px 0;}
+.word{float: right; height: 120px; text-align: center;}
+.verse{width: 20px; vertical-align: top; text-align: center; padding-top: 5px;}
+.bottom-space{clear: both; margin-bottom: 40px;}
+.about,.about:hover {font-weight:bold;color: #f00;}
