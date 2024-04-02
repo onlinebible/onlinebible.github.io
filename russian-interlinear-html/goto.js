@@ -21,7 +21,7 @@ if (BookShortName) {
 	} // end for
 	document.write("</SELECT>\n");
 	document.write('<SELECT id="LocatorSections" size="1" name="LocatorSections"></SELECT>\n');
-	document.write('<BUTTON onclick="location=document.getElementById(\'LocatorSections\').value;">Перейти</BUTTON>\n');
+	document.write('<BUTTON class="go-button" onclick="location=document.getElementById(\'LocatorSections\').value;">Перейти</BUTTON>\n');
 	LocatorChange();
 } // end if
 } // end function
