@@ -49,6 +49,7 @@ a:focus{
 }
 .strongs u:hover {
 	color:			red;
+	cursor:         pointer;
 }
 .translit {
 	font:			12pt Arial, Helvetica, sans-serif;
