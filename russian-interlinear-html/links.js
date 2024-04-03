@@ -13,7 +13,16 @@ function process_click(e) {
   
   if ( tagName == 'U' ) 
   {
-	myWindow=window.open ('../Strongs/heb-rus_strong.html?'+ref,'compare',stats);
+	var URL = location.pathname;
+	arr = URL.split('/'); 
+	DirName = arr[arr.length-2];
+	book = 0;
+	for (i=0;i<arrEng.length;i++) { if (arrEng[i] == DirName) { book = i + 1 } };
+	if (book < 40) { letter = 'h' } else  { letter = 'g' };
+	if (ref < 1000) { letter = letter + '0' };
+
+	var number = (ref[0] == 0) ? ref.slice(1, ref.length) : ref;
+	myWindow=window.open ('../STRONG/'+letter+((ref-ref%100)/100)+'.html#'+number,'compare',stats);
 	myWindow.focus();
 	myWindow.moveTo((screen.availWidth/2)-365,(screen.availHeight/2)-200);
   }
