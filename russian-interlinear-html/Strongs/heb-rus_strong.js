@@ -15,4 +15,4 @@ var InternetWWW='https://dict.bible.ru/?db=heb-rus_strong&strategy=.&define=OK%u
 var s='<div id="openwin"></div>';
 status="";
 document.write(s);
-FormSearch('http://dictd.000.pe/provider.php?url='+InternetWWW+location.search.substr(1));
+FormSearch('provider.php?url='+InternetWWW+location.search.substr(1));
