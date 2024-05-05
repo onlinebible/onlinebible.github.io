@@ -1,103 +1,118 @@
 /* reset */
 a,abbr,acronym,address,applet,article,aside,audio,b,big,body,canvas,caption,center,cite,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,hgroup,html,i,iframe,ins,label,legend,li,menu,nav,object,output,q,ruby,s,samp,section,small,span,strike,strong,summary,tbody,tfoot,thead,time,tr,tt,u,var,video{margin:0;padding:0;font:inherit;border:0;vertical-align:baseline}h1,h2,h3,h4,ol,p,ul{padding:0;font:inherit;border:0}blockquote,img,sub,sup{font:inherit;border:0}pre{font:inherit;overflow:auto}code,header,kbd,mark,td,th{margin:0;font:inherit;border:0;vertical-align:baseline}img,sub,sup{margin:0;padding:0}table{margin:0;padding:0;font:inherit;border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 
+/* body */
+body{text-size-adjust:100%;line-height:1.4;font-family:Helvetica,Arial,sans-serif;font-weight:400;color:#404040;}
+
+/* header */
+header{height:50px;background-color:#111;overflow:hidden;margin-left:-10px}
+
 /* main */
-body{max-width:1280px;margin:0 auto;padding:24px;justify-content:center}
-@media (max-width:600px){body{padding:12px}}
-body{text-size-adjust:100%;line-height:1.6;font-family:Helvetica,Arial,sans-serif;font-weight:400;color:#404040}b,strong{font-weight:700}em,i{font-style:italic}
+main,.container{max-width:1280px;margin:auto;padding:0 6px}
+article,.wrapper{margin: 0 10% 0 3%;position:relative;left:3%}
+@media (max-width:600px){article,.wrapper{margin:0 3% 0 1%;left:1%}}
 
-/* design */
-P {
-	font:			16px Arial, Helvetica, sans-serif;
-	margin-top:		16pt;
-	text-align:		justify;
-}
+/* logo */
+.logo{display:block;float:left;width:130px;height:50px;text-decoration:none;margin-right:10px}
+.rub{color:#bbb;font-size:31px;padding-left:15px;padding-top:3px;}
 
-B {
+/* version */
+.version{color:#bbb;font-size:16px;margin:15px 0;text-align:left}
+.select{color:#bbb}
+
+/* main design */
+b {
 	font:			18px Times,Helvetica,sans-serif;
+	font-weight: bold;
 }
-
-FORM { 
+em,i {font-style:   italic
+}
+form { 
 	font:			9px Arial, Helvetica, sans-serif;
 }
-
-TD { 
+.top-menu td { 
 	font:			18px Times,Helvetica,sans-serif;
 }
-
-A { 
-	font:			16px Arial, Helvetica, sans-serif;
+a {
 	color:			#1473e6;
 	cursor:			pointer; 
 	text-decoration:	underline;
 }
-A:hover { 
-	font:			16px Arial, Helvetica, sans-serif;
+a:hover { 
 	color:			red;
 	cursor:			pointer; 
 	text-decoration:none;
 }
-
 a:focus{
 	outline:orange dotted
 }
 
 /* design words */
 .strongs {
-	font:			10pt Arial, Helvetica, sans-serif;
+	font-family:	Arial, Helvetica, sans-serif;
+    font-size:      85%;
 	color:			blue;
+	white-space:    nowrap;
 }
 .strongs u:hover {
 	color:			red;
-	cursor:         pointer;
+	cursor:       pointer;
+	white-space:    nowrap;
 }
 .translit {
-	font:			12pt Arial, Helvetica, sans-serif;
+	font-family:	Arial, Helvetica, sans-serif;
+    font-size:      100%;
 	color:			green;
+	white-space:    nowrap;
 }
 .hebrew {
-	font:			24px Times, Helvetica, sans-serif;
-	font-weight: bold;
+	font-family:	Times, Helvetica, sans-serif;
+    font-size:      160%;
+	font-weight:    bold;
 	color:			#a17005;
+	white-space:    nowrap;
 }
- 
 .eng {
-	font:			16pt Arial, Helvetica, sans-serif;
+	font-family:  Arial, Helvetica, sans-serif;
+    font-size:      120%;
+	font-weight:    500;
 	color:			#000;
+	white-space:    nowrap;
 }
 .eng i {
-	font:			16pt Arial, Helvetica, sans-serif;
-	font-style:		italic;
+	font-family:	Arial, Helvetica, sans-serif;
+	font-size:      99%;
+	font-weight:    500;
+	line-height:    100%;
 	color:			#333;
+	white-space:    nowrap;
 }
 .strongsnt {
-	font:			10pt Arial Narrow, Inpact;
+	font-family:	'Arial Narrow', Inpact;
+    font-size:      85%;
 	font-style:		italic;
 	color:			#09a6fb;
 	white-space:	nowrap;
 }
-
 /* top-menu */
   .top-menu{width: 100%;}
   .top-space{clear: both; margin-bottom: 8px;}
 
 /* select and button */
-
 #header a { 
 	font:			14px Arial, Helvetica, sans-serif;
 	width:			100%; 
 	margin:         0;
 	padding:        5px 0;
-	display: inline-block;
+	display:        inline-block;
 	color:			#555; 
 	background:		#eee;
 	text-align:		center; 
-	text-decoration:	none; 
+	text-decoration:none; 
 }
 #header a:hover { 
 	background:		#ddd; 
 }
-
 select {
 	min-width: 70px;
 	font-size: 14px;
@@ -110,11 +125,9 @@ select {
 	padding: 8px;
 	cursor: pointer;
   }
- 
 select:hover {
 	background: #ddd
   }
-
 .go-button{
 	background-image: linear-gradient(-180deg, #999 0%, #777 100%);
     border-radius: 5px;
@@ -127,16 +140,13 @@ select:hover {
     border: 0;
     cursor: pointer;
   }
-
 .go-button:hover {
 	background: #555;
   }
-  
 .go-button:focus {
 	outline: none;
 	box-shadow: 0 0 0 4px #cbd6ee;
   }
-
 .menu-button{
 	font-family: inherit;
 	background-image: linear-gradient(-180deg, #aaa 0%, #999 100%);
@@ -159,14 +169,42 @@ select:hover {
 	box-shadow: 0 0 0 4px #cbd6ee;
 }
 
-/* design chapters */
-.chapter{width: 100%; text-align: center; margin: 15px 0 0;}
-.word{float: right; height: 150px; text-align: center; margin-left: 5px;}
-.word:hover{background:#f3f3f3;}
-.verse{font-size: 24px; width: 20px; vertical-align: top; text-align: center; color: red; font-weight: bold;}
+/* cols */
+.row{max-width:800px}
+.col-l,.col-r{float:left;width:49%}
+.col-l{margin-right:2%}
+.row:after{display:table;content:"";clear:both}
 
-/* bottom */
-.bottom-space{clear: both; margin-bottom: 40px;}
+/* index */
+.bible-menu ul{list-style:none;padding:0;margin:0;}
+.bible-menu li{padding:0 0 10px;line-height: 1.1;}
+
+/* about */
+.about{margin-top:12px;margin-bottom:12px;font-size:14px;clear:both}#likes-wrapper,.about .time{display:inline-block;color:#777}#likes-wrapper:before{content:"Просмотров:";margin: 0 3px 0 1px}@media (max-width:420px){.about{margin-top:0}}
+
+/* size plus */
+#sizebooton{margin:0 auto;padding-top:10px;text-align:center}
+input[type="range" i] {
+		appearance: auto;
+		cursor: default;
+		color: light-dark(rgb(16, 16, 16), rgb(255, 255, 255));
+		padding: initial;
+		border: initial;
+		margin: 2px
+}
+
+/* design chapters */
+.chapter{float:right;width:100%;margin: 15px 0 0;}
+.word{float:right;margin-left:10px;margin-bottom:20px;}
+.word tr,.word td{text-align:center;}
+.word:hover{background:#f3f3f3;}
+.verse{font-size:24px; width: 20px; vertical-align: top; text-align: center; color: red; font-weight:bold;padding-top:0;}
+
+/* footer */
+footer{width:100%;border-top:1px solid #ddd;clear:both;margin-top:15px}.copyright{max-width:1280px;margin:auto;font-size:13px;color:#777;padding: 15px 6px 80px;text-align:center}.copyright a{font-size:13px;color:#777}
 
 /* go up */
-#go_up{position:fixed;right:60px;bottom:50px;z-index:999999;margin:0;opacity:.5}.go_up:after{content:'';position:absolute;top:100%;left:42%;width:0;height:0;border-right:20px solid transparent;border-left:20px solid transparent;border-bottom:20px solid #999;clear:both}#go_up:hover{opacity:.8}
+#go_up{position:fixed;bottom:50px;z-index:999999;margin:0 auto;opacity:.5;left:50%;margin-right: -50%;transform: translate(-50%, -50%)}.go_up:after{content:'';position:absolute;top:100%;left:42%;width:0;height:0;border-right:20px solid transparent;border-left:20px solid transparent;border-bottom:20px solid #999;clear:both}#go_up:hover{opacity:.8}
+
+/* typo */
+h1{letter-spacing:-.025em}h1,h2,h3,h4{line-height:1.1;color:#000}h1{margin:0 0 12px;font-weight:500;font-size:30px}h2,h3,h4{margin:40px 0 10px;font-weight:700;font-size:22px}@media (max-width:600px){h1{font-size:20px}}blockquote,p{margin:24px 0}[role=button]{cursor:pointer}.mark,mark{padding:.2em;background-color:#fcf8e3}ol,ul{margin:0 0 0 20px;padding-left:15px}h2+ol,h2+ul,h3+ol,h3+ul,h4+ol,h4+ul{margin-top:24px}ul{list-style:square outside}blockquote{padding:10px 0 10px 30px;border-left:5px solid #ddd}code,kbd{padding:2px 4px;font-size:90%;color:#c7254e;background-color:#f9f2f4}ul li,ol li{padding-bottom:12px}kbd{color:#fff;background-color:#333}kbd kbd{padding:0;font-weight:700;font-size:100%}pre{display:block;margin:0 0 10px;padding:9.5px;font-size:13px;line-height:1.42857143;word-break:break-all;color:#333;background-color:#f5f5f5;border:1px solid #dadce0}pre code{padding:0;font-size:inherit;color:inherit;white-space:pre-wrap;background-color:transparent}.clear{clear:both}small{font-size:15px}hr{height:1px;margin:10px 0;background-color:#ddd;border:0;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;clear:both}
