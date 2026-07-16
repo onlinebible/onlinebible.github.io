@@ -1,5 +1,5 @@
 ﻿"English", "Bible", "Ukraine", "Unknown", "1930 Ivan Ogienko Ukrainian Bible", "2010/01/11"
-"Hebrew", "Bible", "DHNT", "Franz Delitzsch", "Delitzsch’s Hebrew New Testament with Vowels and Strong’s Number", "2024/05/20"
+"Hebrew", "Bible", "DHNT", "Franz Delitzsch", "Delitzsch’s Hebrew New Testament with Vowels and Strong’s Number", "2026/07/16"
 "Russian", "Bible", "CAS", "Епископ Кассиан", "Русский Новый завет в переводе еп.Кассиана (Безобразова)", "2020/02/13"
 "Russian", "Bible", "FBE", "Дмитрий Лео", "Библия под редакцией “Благословение Отца”", "2024/07/20"
 "Russian", "Bible", "Gutanah", "Гурфинкель, Мешков, Одинцов, Ольман, Векслер (изд. Сончино)", "Лучшие переводы Танаха с древнееврейского", "2024/10/14"
