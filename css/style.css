@@ -1,0 +1,38 @@
+﻿#orderDialog {
+    width: 700px;
+    max-width: 90%;
+    padding: 20px;
+    border: 1px solid #808080;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+#orderDialog::backdrop {
+    background: rgba(0,0,0,.55);
+}
+
+.dialogClose {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+
+    width: 34px;
+    height: 34px;
+
+    border: none;
+    background: transparent;
+
+    font-size: 28px;
+    color: gray;
+    cursor: pointer;
+}
+
+.dialogClose:hover {
+    color: black;
+}
+
+.dialogButtons {
+    margin-top: 20px;
+    text-align: center;
+}
