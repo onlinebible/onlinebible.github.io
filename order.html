@@ -1,55 +1,57 @@
 ﻿<dialog id="orderDialog">
     <div class="dialogBody">
-    <H3 ALIGN=center>Заказ CD-диска с библейскими компьютерными программами</H3>
+        <H3 ALIGN=center>Заказ CD-диска с библейскими компьютерными программами</H3>
 
-    <P>Если вы хотите приобрести CD-диск с различными библейскими программами и разной духовной литературой, то пошлите мне, пожалуйста, следующие данные:
+        <P>Если вы хотите приобрести CD-диск с различными библейскими программами и разной духовной литературой, то пошлите мне, пожалуйста, следующие данные:
 
-    <P>Eсли ваш браузер <B>поддерживает</B> бланки и вы имеете доступ к WWW, то заполните, пожалуйста, нижележащий бланк (можно написать русскими буквами):
+        <P>Eсли ваш браузер <B>поддерживает</B> бланки и вы имеете доступ к WWW, то заполните, пожалуйста, нижележащий бланк (можно написать русскими буквами):
 
-    <form id="orderForm">
+        <form id="orderForm">
 
-    <p>ФИО:<br>
-        <input type="text" size="50" name="fio" autocomplete="name">
-    </p>
+        <p>ФИО:<br>
+            <input type="text" size="50" name="fio" autocomplete="name">
+        </p>
 
-    <p>Адрес по эл. почте:<br>
-        <input type="email" size="50" name="email" autocomplete="email">
-    </p>
+        <p>Адрес по эл. почте:<br>
+            <input type="email" size="50" name="email" autocomplete="email">
+        </p>
 
-    <p>Улица, дом, квартира:<br>
-        <input type="text" size="50" name="ulitsa" autocomplete="street-address">
-    </p>
+        <p>Улица, дом, квартира:<br>
+            <input type="text" size="50" name="ulitsa" autocomplete="street-address">
+        </p>
 
-    <p>Город:<br>
-        <input type="text" size="50" name="gorod" autocomplete="address-level2">
-    </p>
+        <p>Город:<br>
+            <input type="text" size="50" name="gorod" autocomplete="address-level2">
+        </p>
 
-    <p>Область/республика/штат:<br>
-        <input type="text" size="50" name="region" autocomplete="address-level1">
-    </p>
+        <p>Область/республика/штат:<br>
+            <input type="text" size="50" name="region" autocomplete="address-level1">
+        </p>
 
-    <p>Страна:<br>
-        <input type="text" size="50" name="country" autocomplete="country-name">
-    </p>
+        <p>Страна:<br>
+            <input type="text" size="50" name="country" autocomplete="country-name">
+        </p>
 
-    <p>Индекс:<br>
-        <input type="text" size="50" name="postcode" autocomplete="postal-code">
-    </p>
+        <p>Индекс:<br>
+            <input type="text" size="50" name="postcode" autocomplete="postal-code">
+        </p>
 
-    <P>Замечания:<BR>
-    <TEXTAREA NAME="comments" COLS=50 ROWS=7 WRAP=VIRTUAL></TEXTAREA>
-      <P>Если вы <B>не</B> можете отправить вышележащий бланк, то пошлите мне пожалуйста 
-         эл.письмо (можно русскими буквами) на адрес: <A HREF="mailto:Michael1972@mail.ru?subject=Order for Online Bible Update        CD"><B>&#77;&#105;&#99;&#104;&#97;&#101;&#108;&#49;&#57;&#55;&#50;&#64;&#109;&#97;&#105;&#108;&#46;&#114;&#117;</B></A>. 
-      <P>Иначе, нажмите:
-    <input type="button"
-           value="Передать"
-           onclick="SendOrder()">; 
-         откройте вашу программу эл.-почты, присоединитесь к WWW и <IMG SRC="Images/Mail.gif" BORDER="0"> <B>отправьте</B>.
-    </form>
+        <P>Замечания:<BR>
+        <TEXTAREA NAME="comments" COLS=50 ROWS=7 WRAP=VIRTUAL></TEXTAREA>
+        <P>Если вы <B>не</B> можете отправить вышележащий бланк, то пошлите мне пожалуйста 
+           эл.письмо (можно русскими буквами) на адрес: <A HREF="mailto:Michael1972@mail.ru?subject=Order for Online Bible Update        CD"><B>&#77;&#105;&#99;&#104;&#97;&#101;&#108;&#49;&#57;&#55;&#50;&#64;&#109;&#97;&#105;&#108;&#46;&#114;&#117;</B></A>. 
+        <P>Иначе, нажмите:
+           <input type="button"
+                  value="Передать"
+                  onclick="SendOrder()">; 
+           откройте вашу программу эл.-почты, присоединитесь к WWW и <IMG SRC="Images/Mail.gif" BORDER="0"> <B>отправьте</B>.
+        </form>
     </div>
-    <button class="dialogClose"
-            onclick="orderDialog.close()"
-            title="Закрыть">
-        ✖
-    </button>
+    <div class="dialogFooter">
+        <button class="dialogClose"
+                onclick="orderDialog.close()"
+                title="Закрыть">
+            ✖
+        </button>
+    </div>
 </dialog>
