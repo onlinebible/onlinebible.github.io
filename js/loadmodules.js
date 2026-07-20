@@ -37,24 +37,25 @@
         const title = `${code} ${date}`;
 
         table.insertAdjacentHTML("beforeend", `
-<tr>
-    <td colspan="2"
-        onmouseover="bgColor='0099FF'"
-        onmouseout="bgColor='66CCFF'"
-        align="left"
-        height="32">
+<td colspan="2"
+    onMouseOver="bgColor='0099FF'"
+    onMouseOut="bgColor='66CCFF'"
+    onClick="window.open('${href}', 'Ssylka')"
+    style="cursor:pointer"
+    align="left"
+    title="${title}"
+    height="32">
 
-        <a href="${href}"
-           title="${title}"
-           style="display:block;color:#000066;text-decoration:none">
+    <font face="Arial, Helvetica, sans-serif"
+          style="font-size:10pt"
+          color="000066">
 
-            ${name}
-            <i><small>${size}</small></i>
+        ${name}
+        <i><small>{${size}}</small></i>
 
-        </a>
+    </font>
 
-    </td>
-</tr>`);
+</td>`);
     });
 }
 
