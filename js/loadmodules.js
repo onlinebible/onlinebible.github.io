@@ -1,8 +1,8 @@
 ﻿async function loadModules() {
 
-    const response = await fetch("Internet.Lst");
+    const response = await fetch("files/internet.rus");
     if (!response.ok) {
-        throw new Error("Не удалось загрузить Internet.Lst");
+        throw new Error("Не удалось загрузить <internet.rus>");
     }
 
     const text = await response.text();
