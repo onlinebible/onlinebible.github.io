@@ -38,25 +38,22 @@
 
         table.insertAdjacentHTML("beforeend", `
 <tr>
-    <a href="${href}">
-        <td colspan="2"
-            onMouseOver="bgColor='0099FF'"
-            onMouseOut="bgColor='66CCFF'"
-            style="cursor:pointer"
-            align="left"
-            title="${title}"
-            height="32">
+    <td colspan="2"
+        onmouseover="bgColor='0099FF'"
+        onmouseout="bgColor='66CCFF'"
+        align="left"
+        height="32">
 
-            <font face="Arial, Helvetica, sans-serif"
-                  style="font-size:10pt"
-                  color="000066">
+        <a href="${href}"
+           title="${title}"
+           style="display:block;color:#000066;text-decoration:none">
 
-                ${name} <i><small>${size}</small></i>
+            ${name}
+            <i><small>${size}</small></i>
 
-            </font>
+        </a>
 
-        </td>
-    </a>
+    </td>
 </tr>`);
     });
 }
