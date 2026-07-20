@@ -32,23 +32,12 @@
 }
 
 .dialogClose {
-    position: absolute;
-    right: 8px;
-    bottom: 8px;
 
-    width: 34px;
-    height: 34px;
+    padding: 6px 20px;
 
-    border: none;
-    background: transparent;
+    font-size: 14px;
 
-    font-size: 28px;
-    color: gray;
     cursor: pointer;
-}
-
-.dialogClose:hover {
-    color: black;
 }
 
 .dialogButtons {
