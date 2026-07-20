@@ -40,7 +40,7 @@
 <td colspan="2"
     onMouseOver="bgColor='0099FF'"
     onMouseOut="bgColor='66CCFF'"
-    onClick="window.open('${href}', 'Ssylka')"
+    onClick="window.open('${href}', '_blank')"
     style="cursor:pointer"
     align="left"
     title="${title}"
@@ -51,7 +51,7 @@
           color="000066">
 
         ${name}
-        <i><small>{${size}}</small></i>
+        <i><small>${size}</small></i>
 
     </font>
 
