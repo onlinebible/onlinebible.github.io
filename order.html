@@ -6,34 +6,34 @@
 
     <P>Eсли ваш браузер <B>поддерживает</B> бланки и вы имеете доступ к WWW, то заполните, пожалуйста, нижележащий бланк (можно написать русскими буквами):
 
-    <div id="orderForm">
+    <form id="orderForm">
 
     <p>ФИО:<br>
-    <input type="text" size="50" name="fio" autocomplete="name">
+        <input type="text" size="50" name="fio" autocomplete="name">
     </p>
 
     <p>Адрес по эл. почте:<br>
-    <input type="email" size="50" name="email" autocomplete="email">
+        <input type="email" size="50" name="email" autocomplete="email">
     </p>
 
     <p>Улица, дом, квартира:<br>
-    <input type="text" size="50" name="ulitsa" autocomplete="street-address">
+        <input type="text" size="50" name="ulitsa" autocomplete="street-address">
     </p>
 
     <p>Город:<br>
-    <input type="text" size="50" name="gorod" autocomplete="address-level2">
+        <input type="text" size="50" name="gorod" autocomplete="address-level2">
     </p>
 
     <p>Область/республика/штат:<br>
-    <input type="text" size="50" name="region" autocomplete="address-level1">
+        <input type="text" size="50" name="region" autocomplete="address-level1">
     </p>
 
     <p>Страна:<br>
-    <input type="text" size="50" name="country" autocomplete="country-name">
+        <input type="text" size="50" name="country" autocomplete="country-name">
     </p>
 
     <p>Индекс:<br>
-    <input type="text" size="50" name="postcode" autocomplete="postal-code">
+        <input type="text" size="50" name="postcode" autocomplete="postal-code">
     </p>
 
     <P>Замечания:<BR>
@@ -42,10 +42,10 @@
          эл.письмо (можно русскими буквами) на адрес: <A HREF="mailto:Michael1972@mail.ru?subject=Order for Online Bible Update        CD"><B>&#77;&#105;&#99;&#104;&#97;&#101;&#108;&#49;&#57;&#55;&#50;&#64;&#109;&#97;&#105;&#108;&#46;&#114;&#117;</B></A>. 
       <P>Иначе, нажмите:
     <input type="button"
-       value="Передать"
-       onclick="SendOrder()">; 
-    откройте вашу программу эл.-почты, присоединитесь к WWW и <IMG SRC="Images/Mail.gif" BORDER="0"> <B>отправьте</B>.
-    </div>
+           value="Передать"
+           onclick="SendOrder()">; 
+         откройте вашу программу эл.-почты, присоединитесь к WWW и <IMG SRC="Images/Mail.gif" BORDER="0"> <B>отправьте</B>.
+    </form>
     </div>
     <button class="dialogClose"
             onclick="orderDialog.close()"
@@ -63,9 +63,9 @@ function SendOrder()
 Адрес по эл. почте: ${f.email.value}
 Улица, дом, квартира: ${f.ulitsa.value}
 Город: ${f.gorod.value}
-Область/республика/штат: ${f["obl/rep/st"].value}
-Страна: ${f.strana.value}
-Индекс: ${f.index.value}
+Область/республика/штат: ${f.region.value}
+Страна: ${f.country.value}
+Индекс: ${f.postcode.value}
 
 Комментарии:
 
