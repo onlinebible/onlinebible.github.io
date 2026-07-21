@@ -55,12 +55,11 @@
     height: 36px;
     color: #888;
     background: transparent;
-    display: flex;
     border: none;
     transition: color .2s;
     align-items: center;
     justify-content: center; 
-    padding-top: 2px;
+    padding-top: 5px;
     box-sizing: border-box;
 }
 
