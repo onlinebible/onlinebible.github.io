@@ -1,6 +1,6 @@
 ﻿#orderDialog {
-    width: 80vw;
-    height: 80vh;
+    width: 90vw;
+    height: 75vh;
 
     min-width: 700px;
     min-height: 500px;
@@ -9,12 +9,12 @@
     max-height: 900px;
 
     padding: 0;
-    border: 6px solid #808080;
+    border: 0px solid #808080;
     border-radius: 6px;
 }
 
 #downloadDialog::backdrop {
-    background: rgba(0,0,0,.55);
+    background: rgba(0,0,0,.70);
 }
 
 .dialogContent {
