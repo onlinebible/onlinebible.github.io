@@ -57,9 +57,8 @@
     background: transparent;
     border: none;
     transition: color .2s;
-    align-items: center;
+    align-items: bottom;
     justify-content: center; 
-    padding-top: 5px;
     box-sizing: border-box;
 }
 
