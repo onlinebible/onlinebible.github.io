@@ -51,6 +51,8 @@
 }
 
 .dialogClose {
+    width: 36px;
+    height: 36px;
     color: #888;
     background: none;
     border: none;
