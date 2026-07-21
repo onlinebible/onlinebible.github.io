@@ -11,6 +11,7 @@
     padding: 0;
     border: 9px solid #4f4f4f;
     border-radius: 0px;
+    outline: 1px solid white;
 }
 
 #orderDialog::backdrop {
@@ -54,6 +55,8 @@
     background: none;
     border: none;
     transition: color .2s;
+    align-items: center;
+    justify-content: center; 
 }
 
 .dialogClose:hover {
