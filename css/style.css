@@ -16,6 +16,7 @@
 }
 
 .dialogBody {
+    flex: 1;
 
     overflow-y: auto;
 
@@ -23,7 +24,6 @@
 }
 
 .dialogFooter {
-    display: flex;
     justify-content: flex-end;   /* кнопки справа */
     gap: 10px;                   /* расстояние между кнопками */
 
