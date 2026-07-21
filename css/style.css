@@ -55,6 +55,7 @@
     height: 36px;
     color: #888;
     background: none;
+    display: flex;
     border: none;
     transition: color .2s;
     align-items: center;
