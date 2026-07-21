@@ -9,9 +9,8 @@
     max-height: 900px;
 
     padding: 0;
-    border: 1px solid #808080;
+    border: 2px solid #808080;
     border-radius: 6px;
-    display: flex;
     flex-direction: column;
 }
 
@@ -24,6 +23,7 @@
 }
 
 .dialogFooter {
+    display: flex;
     justify-content: flex-end;   /* кнопки справа */
     gap: 10px;                   /* расстояние между кнопками */
 
