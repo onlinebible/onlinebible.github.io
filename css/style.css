@@ -10,12 +10,12 @@
 
     padding: 0;
     border: 9px solid #808080;
-    border-radius: 6px;
+    border-radius: 0px;
     box-shadow: 0 0 50px rgba(0,0,0,.8);
 }
 
 #orderDialog::backdrop {
-    background: rgba(0,0,0,.45);
+    background: rgba(0,0,0,.9);
 }
 
 .dialogContent {
