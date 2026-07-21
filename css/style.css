@@ -1,5 +1,5 @@
 ﻿#orderDialog {
-    width: 75vw;
+    width: 79vw;
     height: 80vh;
 
     min-width: 700px;
@@ -15,7 +15,7 @@
 }
 
 #downloadDialog::backdrop {
-    background: rgba(0,0,0,.7);
+    background: red !important;
 }
 
 .dialogContent {
