@@ -65,7 +65,7 @@
 
     fill: none;
     stroke: currentColor;
-    stroke-width: 6;      /* толще */
+    stroke-width: 3;      /* толще */
     stroke-linecap: butt;  /* закругленные концы */
     stroke-linejoin: round;
 }
