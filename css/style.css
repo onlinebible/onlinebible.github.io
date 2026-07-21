@@ -11,7 +11,7 @@
     padding: 0;
     border: 9px solid #4f4f4f;
     border-radius: 0px;
-    outline: .5px solid white;
+    outline: 1px solid #808080;
 }
 
 #orderDialog::backdrop {
@@ -57,6 +57,7 @@
     transition: color .2s;
     align-items: center;
     justify-content: center; 
+    padding-top: 2px;
 }
 
 .dialogClose:hover {
@@ -64,8 +65,8 @@
 }
 
 .dialogClose svg {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     fill: none;
     stroke: currentColor;
     stroke-width: 5;      /* толще */
