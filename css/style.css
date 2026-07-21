@@ -24,26 +24,18 @@
 }
 
 .dialogFooter {
+    display: flex;
+    justify-content: flex-end;   /* кнопки справа */
+    gap: 10px;                   /* расстояние между кнопками */
 
     border-top: 1px solid #c0c0c0;
-
     padding: 10px;
-
-    text-align: right;
-
     background: #f5f5f5;
 }
 
+.dialogButtons,
 .dialogClose {
-
-    padding: 6px 20px;
-
+    padding: 6px 18px;
     font-size: 14px;
-
     cursor: pointer;
-}
-
-.dialogButtons {
-    margin-top: 20px;
-    text-align: center;
 }
