@@ -9,12 +9,12 @@
     max-height: 900px;
 
     padding: 0;
-    border: 6px solid #808080;
-    border-radius: 0px;
+    border: 10px solid #808080;
+    border-radius: 6px;
 }
 
 #downloadDialog::backdrop {
-    background: rgba(0,0,0,.80);
+    background: rgba(0,0,0,.90);
 }
 
 .dialogContent {
