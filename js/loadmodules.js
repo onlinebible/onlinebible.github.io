@@ -1,13 +1,13 @@
-﻿async function loadModules() {
+﻿async function loadModules(fileName, tableId) {
 
-    const response = await fetch("files/internet.rus");
+    const response = await fetch(fileName);
     if (!response.ok) {
-        throw new Error("Не удалось загрузить <internet.rus>");
+        throw new Error("Не удалось загрузить <${fileName}>");
     }
 
     const text = await response.text();
 
-    const table = document.getElementById("ModulesTable");
+    const table = document.getElementById(tableId);
 
     // "RST77" 2026/05/31 "Русский Синодальный перевод 1876/1956" "{2.67 МБ}" "https://onlinebible.github.io/files/"
     const re = /^"([^"]+)"\s+([0-9]{4}\/[0-9]{2}\/[0-9]{2})\s+"([^"]+)"\s+"([^"]+)"\s+"([^"]+)"$/;
@@ -58,5 +58,6 @@
 </td>`);
     });
 }
+window.addEventListener("DOMContentLoaded", loadModules("files/internet.rus", "ModulesTable"));
+window.addEventListener("DOMContentLoaded", loadModules("files/internetnonunicode.lst", "NonUnicodeModulesTable"));
 
-window.addEventListener("DOMContentLoaded", loadModules);
