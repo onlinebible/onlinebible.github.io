@@ -18,6 +18,26 @@
     background: rgba(0,0,0,.9);
 }
 
+#katalogDialog {
+    width: 79vw;
+    height: 80vh;
+
+    min-width: 700px;
+    min-height: 500px;
+
+    max-width: 1100px;
+    max-height: 900px;
+
+    padding: 0;
+    border: 9px solid #4f4f4f;
+    border-radius: 0px;
+    outline: 1px solid #808080;
+}
+
+#katalogDialog::backdrop {
+    background: rgba(0,0,0,.9);
+}
+
 .dialogContent {
     display: flex;
     flex-direction: column;
@@ -75,4 +95,14 @@
     stroke-width: 5;      /* толще */
     stroke-linecap: butt;  /* закругленные концы */
     stroke-linejoin: round;
+}
+
+A.HoMe:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ff6600;
+}
+A.HoMe {
+	COLOR: #ffcc33; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; text-shadow: 2px 2px black;
+}
+.HoMe {
+	cursor:hand; cursor:pointer
 }

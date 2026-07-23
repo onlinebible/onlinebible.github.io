@@ -2,7 +2,7 @@
 
     const response = await fetch(fileName);
     if (!response.ok) {
-        throw new Error("Не удалось загрузить <${fileName}>");
+        throw new Error(`Не удалось загрузить <${fileName}>`);
     }
 
     const text = await response.text();
