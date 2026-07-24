@@ -38,10 +38,45 @@
     background: rgba(0,0,0,.9);
 }
 
+#imageDialog {
+    margin: auto;
+    padding: 0;
+    border: 9px solid #4f4f4f;
+    border-radius: 0px;
+    outline: 1px solid #808080;
+}
+
+#imageDialog::backdrop {
+    background: rgba(0,0,0,.9);
+}
+
+.imageBody {
+    flex: 1;
+    min-height: 0;      /* очень важно */
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.imagePreview {
+    max-width: 100%;
+    max-height: 100%;
+
+    width: auto;
+    height: auto;
+
+    display: block;
+    object-fit: contain;
+}
+
 .dialogContent {
     display: flex;
     flex-direction: column;
     height: 100%;
+    min-height: 0;
 }
 
 .dialogBody {
