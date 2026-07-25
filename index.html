@@ -25,10 +25,19 @@
     <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
 <STYLE TYPE="TEXT/CSS">
 <!--
+.indent {
+    width: fit-content;
+    margin: 0 auto;
+}
 ul.indent {  vertical-align: middle; list-style-image: url(Images/BDBLUE.GIF); clear: left; text-align: left;}
 ul.square {  vertical-align: middle; list-style-image: url(Images/bullet1.gif); clear: left; text-align: left;}
 ul {  vertical-align: middle; list-style-image: url(Images/bdgold.gif); text-align: left;}
-.container {overflow: auto; height: 95%;}
+/*
+.container {
+    overflow: auto;
+    height: 95%;
+}
+*/
 tr a:hover {TEXT-DECORATION: none;}
 td {vertical-align: middle;}
 .button {
@@ -68,20 +77,25 @@ fetch("katalog.html")
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="collapse navbar-collapse center-navbar" id="navbar-centered">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li>
                         <a class="page-scroll" href="#page-top">Домашняя страничка</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#whatsolb">О программе</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#bibletexts">Каталог программы</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#ScrShot">Скриншоты</a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            О программе <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="page-scroll" href="#whatsolb">Что такое Библия Он-Лайн</a></li>
+                            <li><a class="page-scroll" href="#progshell">Программная оболочка</a></li>
+                            <li><a class="page-scroll" href="#bibletexts">Модули на компакт-диске — тексты Библии</a></li>
+                            <li><a class="page-scroll" href="#comments">Модули на компакт-диске — комментарии и другие материалы</a></li>
+                            <li><a class="page-scroll" href="#sysreq">Системные требования и форма поставки</a></li>
+                            <li><a class="page-scroll" href="#ScrShot">Скриншоты</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a class="page-scroll" href="#presentation">Презентация</a>
@@ -90,10 +104,14 @@ fetch("katalog.html")
                         <a class="page-scroll" href="#techsupport">Контакты</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#ordering">Загрузка</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Библиотека</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Загрузка <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="page-scroll" href="#ordering">Где приобрести программу</a></li>
+                            <li><a class="page-scroll" href="#download">Загрузка бесплатных модулей для Библии Он-Лайн</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -132,9 +150,8 @@ face="Times New Roman" size=3><I>инструмент для изучения, �
     <img src="Images/olb.png"
          class="introImageRight"
          alt="">
-
 </div>
-<UL class="indent" style="MARGIN-LEFT: 275px;">
+    <UL class="indent">
 	<LI><A HREF="#whatsolb"><B>ЧТО ТАКОЕ БИБЛИЯ ОН-ЛАЙН</B></A> </LI>
 	<LI><A HREF="#progshell"><B>ПРОГРАММНАЯ ОБОЛОЧКА</B></A> </LI>
         <LI><A HREF="#bibletexts"><B>МОДУЛИ НА КОМПАКТ-ДИСКЕ — ТЕКСТЫ БИБЛИИ</B></A> </LI>
@@ -145,7 +162,7 @@ face="Times New Roman" size=3><I>инструмент для изучения, �
 	<LI><A HREF="#techsupport"><B>ТЕХНИЧЕСКАЯ ПОДДЕРЖКА И СОПРОВОЖДЕНИЕ</B></A> </LI>
 	<LI><A HREF="#ordering"><B>ГДЕ ПРИОБРЕСТИ ПРОГРАММУ</B></A> </LI>
 	<LI><A HREF="#download"><B>ЗАГРУЗКА БЕСПЛАТНЫХ МОДУЛЕЙ ДЛЯ БИБЛИИ ОН-ЛАЙН</B></A> </LI>
-</UL>
+    </UL>
                 </div>
             </div>
         </div>
@@ -638,7 +655,7 @@ shareware и freeware с христианскими текстами, приня
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
 
-    <script src="js/jquery.colorbox-min.js?ver=1.1.6:6"></script>
+    <script src="js/jquery.colorbox-min.js?ver=1.1.6"></script>
     <script src="js/imageviewer.js"></script>
 
 </body>
