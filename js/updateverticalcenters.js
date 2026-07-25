@@ -1,5 +1,9 @@
 function updateVerticalCenters()
 {
+    document.documentElement.style.setProperty(
+        "--app-height",
+        window.innerHeight + "px"
+    );
     document.querySelectorAll(".vertical-center").forEach(section =>
     {
         const body = section.querySelector(".sectionBody");

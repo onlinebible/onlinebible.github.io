@@ -36,7 +36,7 @@ of those sections to manage the look and feel of the site. */
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    height: calc(100vh - 50px);
+    height: calc(var(--app-height) - 50px);
     display: flex;
     flex-direction: column;
 }
