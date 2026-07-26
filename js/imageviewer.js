@@ -5,3 +5,9 @@ $(function () {
         photo: true
     });
 });
+
+$(".wp-colorbox-iframe").colorbox({
+    iframe: true,
+    width: "90%",
+    height: "90%"
+});

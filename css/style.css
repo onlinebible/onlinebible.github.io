@@ -163,3 +163,14 @@ A.HoMe {
         display: block;
     }
 }
+
+.introImageLeft {
+    width: 221px;
+    flex-shrink: 0;
+}
+
+.introImageRight {
+    height: 221px;
+    width: auto;
+    flex-shrink: 0;
+}
