@@ -45,15 +45,6 @@ td {vertical-align: middle;}
 }
 -->
 </STYLE>
-<SCRIPT language="javascript">
-<!--
-fetch("order.html")
-    .then(r => r.text())
-    .then(html => {
-        document.body.insertAdjacentHTML("beforeend", html);
-    });
-//-->
-</SCRIPT>
 </head>
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
@@ -574,7 +565,8 @@ fetch("order.html")
     </div>
     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:20%">
         <CENTER>
-            <a onClick="orderDialog.showModal();" STYLE="cursor:hand; cursor:pointer" class="Button" title="Заказ CD-диска с Библией Он-Лайн"><B>Заказать             CD</B></A>
+            <a class="wp-colorbox-iframe cboxElement" href="order.html" title="Заказ CD-диска с Библией Он-Лайн"><B>Заказать
+             CD</B></A>
         </CENTER>
         <IMG SRC="Images/AVION.GIF" WIDTH="201" HEIGHT="77" HSPACE="20" ALIGN="left" VSPACE="15">
     </div>
@@ -640,7 +632,6 @@ shareware и freeware с христианскими текстами, приня
     </section>
 
     <script src="js/loadmodules.js"></script>
-    <script src="js/sendorder.js"></script>
     <script src="js/updateverticalcenters.js"></script>
 
     <!-- jQuery -->

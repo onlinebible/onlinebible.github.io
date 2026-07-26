@@ -7,6 +7,7 @@ $(function () {
 });
 
 $(".wp-colorbox-iframe").colorbox({
+
     iframe: true,
 
     width: "90%",
@@ -18,5 +19,6 @@ $(".wp-colorbox-iframe").colorbox({
     reposition: true,
     fixed: true,
 
-    scrolling: true
+    scrolling: true,
+
 });

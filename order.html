@@ -1,7 +1,12 @@
-﻿<dialog id="orderDialog">
+﻿<HTML>
+  <HEAD>
+    <TITLE>Заказ CD-диска с Библией Он-Лайн</TITLE>
+    <link href="css/style.css" rel="stylesheet">
+  </HEAD>
+  <BODY>
     <div class="dialogContent">
         <div class="dialogBody">
-        <H3 ALIGN=center>Заказ CD-диска с библейскими компьютерными программами</H3>
+        <H3 ALIGN=center>Заказ CD-диска с Библией Он-Лайн</H3>
 
         <P>Если вы хотите приобрести CD-диск с различными библейскими программами и разной духовной литературой, то пошлите мне, пожалуйста, следующие данные:
 
@@ -41,23 +46,12 @@
         <TEXTAREA NAME="comments" COLS=50 ROWS=7 WRAP=VIRTUAL></TEXTAREA>
         <P>Если вы <B>не</B> можете отправить вышележащий бланк, то пошлите мне пожалуйста 
            эл.письмо (можно русскими буквами) на адрес: <A HREF="mailto:Michael1972@mail.ru?subject=Order for Online Bible Update CD"><B>&#77;&#105;&#99;&#104;&#97;&#101;&#108;&#49;&#57;&#55;&#50;&#64;&#109;&#97;&#105;&#108;&#46;&#114;&#117;</B></A>. 
-        <P>Иначе, нажмите кнопку <b>«Передать»</b>, расположенную внизу окна. Затем в открывшейся программе электронной почты <IMG SRC="Images/Mail.gif" BORDER="0"> <B>отправьте</B> подготовленное письмо. 
+        <P>Иначе, нажмите кнопку <INPUT TYPE=SUBMIT VALUE="передать" onClick="SendOrder(); return false;">. Затем в открывшейся программе электронной почты <IMG SRC="Images/Mail.gif" BORDER="0"> <B>отправьте</B> подготовленное письмо. 
         </form>
         </div>
-        <div class="dialogFooter">
-        <button class="dialogButtons"
-                onclick="SendOrder()"
-                title="Открыть программу эл.почты">
-            Передать
-        </button>
-        <button class="dialogClose" 
-                onclick="orderDialog.close()"
-                title="Закрыть">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-                <line x1="5" y1="5" x2="19" y2="19"/>
-                <line x1="19" y1="5" x2="5" y2="19"/>
-            </svg>
-        </button>
-        </div>
     </div>
-</dialog>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.colorbox-min.js"></script>
+    <script src="js/sendorder.js"></script>
+  </BODY>
+</HTML>

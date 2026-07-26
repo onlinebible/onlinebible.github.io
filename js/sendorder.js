@@ -22,4 +22,9 @@ ${f.comments.value}
         "mailto:Michael1972@mail.ru"
         + "?subject=" + encodeURIComponent(subject)
         + "&body=" + encodeURIComponent(body);
+    setTimeout(function () {
+        if (parent && parent.$ && parent.$.colorbox) {
+            parent.$.colorbox.close();
+        }
+    }, 300);
 }
