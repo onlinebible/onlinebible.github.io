@@ -88,7 +88,6 @@ section {
 .introImageRight {
     height: 221px;
     width: auto;
-    max-width: 40%;
     flex-shrink: 0;
 }
 

@@ -17,3 +17,9 @@ $(function() {
         event.preventDefault();
     });
 });
+
+$(function () {
+    $('.navbar-collapse a').not('.dropdown-toggle').on('click', function () {
+        $('.navbar-collapse').collapse('hide');
+    });
+});
