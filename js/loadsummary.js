@@ -1,15 +1,10 @@
-﻿console.log("loadSummary started");
-alert("loadSummary started");
-
-async function loadSummary(fileName)
+﻿async function loadSummary(fileName)
 {
     const response = await fetch(fileName);
     if (!response.ok) {
         throw new Error(`Не удалось загрузить <${fileName}>`);
     }
-    alert("fetch completed");
     const text = await response.text();
-    alert("text loaded");
     const lines = text.split(/\r?\n/);
 
     const data = {};
@@ -114,6 +109,5 @@ window.addEventListener("DOMContentLoaded", async () =>
     catch (err)
     {
         console.error(err);
-        alert(err.message);
     }
 });
