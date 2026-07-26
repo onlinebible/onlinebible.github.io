@@ -9,11 +9,11 @@ $(function () {
 $(".wp-colorbox-iframe").colorbox({
     iframe: true,
 
-    width: "95%",
-    height: "95%",
+    width: "90%",
+    height: "90%",
 
-    maxWidth: "95%",
-    maxHeight: "95%",
+    maxWidth: "90%",
+    maxHeight: "90%",
 
     reposition: true,
     fixed: true,
