@@ -28,7 +28,7 @@
 "Russian", "Book", "Gantsfrid_KitsurShulhanAruh", "Ганцфрид, р. Шломо", "Кицур Шульхан Арух", "2026/05/10"
 "Russian", "Book", "Hardt_Chasto_zadavaemye_voprosy", "Хардт, Михаэль", "Часто задаваемые вопросы", "2026/05/10"
 "Russian", "Book", "Kargel_V_kakom_ty_otnoshenii_k_Duxu_Svyatomu", "Каргель, И. В.", "В каком ты отношении к Духу Святому", "2025/07/31"
-"Russian", "Book", "Kargel_Xristos_osvyashhenie_nashe", "Каргель, И. В.", "Христос — освящение наше", "2026/09/18"
+"Russian", "Book", "Kargel_Xristos_osvyashhenie_nashe", "Каргель, И. В.", "Христос — освящение наше", "2026/09/20"
 "Russian", "Book", "Kovalko_Svyatost_supruzheskix_otnoshenij", "Ковалько, Наталья", "Святость супружеских отношений", "2024/10/06"
 "Russian", "Book", "Kushu_O_govorenii_na_inyx_yazykax", "Александр Кушу", "О говорении на иных языках", "2025/12/19"
 "Russian", "Book", "Levchuk_Brak_zemnoj_i_brak_nebesnyj", "Левчук, Михаил", "Брак земной и брак небесный (Библейское учение о браке)", "2024/05/07"
